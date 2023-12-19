@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Hoy empieza todo</title>
+</head>
+<body>
+    <main>
+        <section id="container">
+            <article class="container-header">
+                <div class="container-header__one"><h1>HOY</h1>
+                </div>
+                <h2>EMPIEZA TODO</h2>
+            </article>
+            <input type="text" id="taskInput" placeholder="Nueva tarea">
+            <button onclick="addTask()">Añadir</button>
+            <article><input type="checkbox" id="checkBox">
+            <ul id="taskList"></ul>
+            </article>
+            <button onclick="doneTask()">Hecho</button>
+            <button onclick="deleteTask()">Eliminar</button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
